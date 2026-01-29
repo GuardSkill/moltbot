@@ -580,6 +580,8 @@ const FIELD_HELP: Record<string, string> = {
   "agents.defaults.humanDelay.mode": 'Delay style for block replies ("off", "natural", "custom").',
   "agents.defaults.humanDelay.minMs": "Minimum delay in ms for custom humanDelay (default: 800).",
   "agents.defaults.humanDelay.maxMs": "Maximum delay in ms for custom humanDelay (default: 2500).",
+  "agents.defaults.proxy":
+    'HTTP proxy URL for LLM API requests (e.g., "http://127.0.0.1:7890"). Also reads HTTPS_PROXY/HTTP_PROXY env vars.',
   "commands.native":
     "Register native commands with channels that support it (Discord/Slack/Telegram).",
   "commands.nativeSkills":

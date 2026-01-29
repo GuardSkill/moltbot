@@ -235,6 +235,8 @@ export type AgentDefaultsConfig = {
     /** Auto-prune sandbox containers. */
     prune?: SandboxPruneSettings;
   };
+  /** HTTP proxy URL for LLM API requests (e.g., "http://127.0.0.1:7890"). */
+  proxy?: string;
 };
 
 export type AgentCompactionMode = "default" | "safeguard";
